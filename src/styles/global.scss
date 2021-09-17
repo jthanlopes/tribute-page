@@ -6,5 +6,61 @@
 
 body {
 	font: Arial, Helvetica, sans-serif;
-	background-color: cadetblue;
+	background-color: #eee;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+a {
+	color: #4040ff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	font-weight: 300;
+}
+
+#main {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+
+	#header {
+		margin: 2rem 0 0 0;
+
+		h1 {
+			font-size: 3rem;
+		}
+
+		p {
+			font-size: 1.2rem;
+			margin-top: 1rem;
+		}
+	}
+
+	#img-div {
+		margin: 1rem 1rem;
+		padding: 2rem 0;
+		background-color: #fff;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+	#tribute-info {
+		margin: 2rem 0 0 0;
+
+		h2+p {
+			max-width: 600px;
+			margin: 0 auto 2rem;
+			text-align: left;
+		}
+
+		p {
+		 font-size: 1.3rem;
+		}
+	}
 }
