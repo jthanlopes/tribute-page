@@ -29,7 +29,7 @@ export function App() {
 	 				<p>
 	 					Se quiser conhecer mais sobre ela, consulte o <a href="https://pt.wikipedia.org/wiki/Aracy_de_Carvalho_Guimar%C3%A3es_Rosa" id="tribute-link" target="_blank">Artigo da Wi<wbr/>ki<wbr/>pe<wbr/>dia</a>.
 	 				</p>
-	 				
+
 	 			</section>
 			</main>
 		</>

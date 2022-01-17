@@ -1,3 +1,4 @@
+/*Begin reset/normalize */
 * {
 	margin: 0;
 	padding: 0;
@@ -22,9 +23,13 @@ a:hover {
 p {
 	font-weight: 300;
 }
+/*End reset/normalize */
 
 #main {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 	font-family: 'Roboto Slab', serif;
 	margin: 2rem 1rem;
 
@@ -40,6 +45,10 @@ p {
 	}
 
 	#img-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
 		margin-top: 1rem;
 		padding: 2rem;
 		background-color: #fff;
@@ -48,22 +57,24 @@ p {
 			max-width: 100%;
 			display: block;
 			height: auto;
-			margin: 0 auto;
 		}
 	}
 
 	#tribute-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
 		margin: 1rem;
 
-		h2+p {
+		h2 + p {
 			max-width: 600px;
 			text-align: justify;
-			margin: 0 auto;
+			margin: 1rem 0 3rem;
 		}
 
 		p {
-		 font-size: 1.3rem;
-		 margin-top: 3rem;
+			font-size: 1.3rem;
 		}
 	}
 }
